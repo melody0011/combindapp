@@ -38,14 +38,19 @@ $colors: (
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  lightbutton: #7dffb1
 );
-
+//ทั้งระบบ
+$tabs-background: color($colors,lightbutton);//สีด้านล่าง
+$tabs-tab-color-inactive: color($colors,dark);//สีอนไม่กดปปุ่ม
+$tabs-tab-color-active: color($colors,danger); //สีตอนกด
+$toolbar-background: color($colors,danger);//สีเครื่องมือ
 
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here
-
+$tabs-md-tab-text-color: color($colors,light); //สีข้อความด้านล่าง
 
 
 
